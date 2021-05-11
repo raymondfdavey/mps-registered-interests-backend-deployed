@@ -1,0 +1,22 @@
+{
+  "name": "mp_registered_interests_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node listen.js",
+    "dev": "nodemon listen.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
